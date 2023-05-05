@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+margin: 0;
+background-color: #4b61e8;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.continer {
+    background-color: #7889ef;
+    margin: 50px auto;
+    width: 1150px;
+    height: 1090px;
+ border-radius: 50%;
+   border-bottom-left-radius: 0;
+   border-bottom-right-radius: 0;
+   position: relative;
+}
+
+
+
+
+.continer .place-2{
+    width: 330px;
+    height: 494px;
+    background-color: #673ab7;
+    position: absolute;
+    bottom: 0;
+    right: 43%;
+    border-radius: 5px;
+
+}
+
+.continer .place-1{
+    position: absolute;
+    bottom: 0;
+    margin-left: 17px;
+    width: 273px;
+    height: 376px;
+    background-color:#0f7cda;
+    border-radius: 5px;
+    
+}
+.continer .place-3{
+    position: absolute;
+    right: 74px;
+    bottom: 0;
+    width: 380px;
+    height: 800px;
+    background-color: #3f51b5;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+.face {
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+    background-color:#607d8b;
+    animation-name: light;
+    animation-duration: 10s;
+    animation-timing-function: liner;
+    animation-iteration-count: infinite;
+}
+@keyframes light{
+
+   0% {
+        background-color: #607d8b;
+    }
+
+50%{
+
+    background-color: rgb(241, 201, 4);
+}
+100% {
+    background-color: #607d8b;
+
+}
+}
+.window-1 {
+
+    position:absolute;
+    right: 0;
+    top: 20px;
+}
+
+
+.window-2{
+    position:absolute;
+    left: 0;
+    top: 20px;
+}
+.window-3 {
+    position:absolute;
+    right: 0;
+    bottom: 40%;
+}
+.window-4 {
+    position:absolute;
+    left: 0;
+    bottom: 40%;
+}
+
+.window-5 {
+    position: absolute;
+    left: 35%;
+    bottom: 0;
+    height: 159px;
+    width: 100px;
+    border-radius: 10px;
+    background-color:#607d8b;
+  
+}
+
+
+.test {
+    background-color:#607d8b;
+ width:100px ;
+ height: 6px;
+ position: absolute;
+ top: 50%;
+}
+
+.test-2 {
+    background-color:#607d8b;
+    width: 6%;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    }
+
+
+
+    .window-6{
+        position:absolute;
+        right: 0;
+        top: 20px;
+    }
+
+
+
+    
+    .window-7{
+        position:absolute;
+        left: 0;
+        top: 20px;
+    }
+
+
+
+    .window-8{
+        position:absolute;
+        right: 0;
+        bottom: 40%;
+    }
+
+
+
+
+    .window-9 {
+        position:absolute;
+        left: 0;
+        bottom: 40%;
+    }
+    
+
+
+
+    .window-10{
+        position: absolute;
+        left: 35%;
+        bottom: 0;
+        height: 159px;
+        width: 100px;
+        border-radius: 10px;
+        background-color:#607d8b;
+      
+    }
+
+
+
+
+
+    .test-3 {
+        background-color: #607d8b;
+        width: 100px;
+        height: 6px;
+        position: absolute;
+        top: 50%;
+    }
+
+
+
+
+    .test-4 {
+        background-color:#607d8b;
+        width: 6%;
+        height: 100px;
+        position: absolute;
+        left: 50%;
+        }
+
+        
+
+
+        .window-11{
+            position:absolute;
+            right: 0;
+            top: 20px;
+        }
+
+
+
+        .window-12{
+            position:absolute;
+            left: 0;
+            top: 20px;
+        }
+
+
+
+        .window-13{
+            position: absolute;
+            left: 35%;
+            bottom: 0;
+            height: 159px;
+            width: 100px;
+            border-radius: 10px;
+            background-color:#607d8b;
+          
+        }
+
+
+
+        .window-14{
+            position: absolute;
+            left: 0;
+            top: 195px;
+        }
+        
+
+
+
+    .window-15{
+        position: absolute;
+        right: 0;
+        top: 195px;
+    }
+
+
+
+
+    .moon {
+        position: absolute;
+        top: 87px;
+        background-color: transparent;
+        left: 183px;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        border: #ffeb3b 20px solid;
+        border-left-style: none;
+        border-top-style: none;
+    animation-name: sun;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration:10s ;
+    /* animation-direction: reverse; */
+    
+    
+    }
+
+
+
+ @keyframes sun {
+0% {
+
+
+top: 20px;
+left: 449px;
+border-left-style: #ffeb3b;
+border-top-style: #ffeb3b;
+background-color: #ffeb3b;
+}
+50%{
+    top: 87px;
+left: 183px;
+border-left-style: none;
+border-top-style: none;
+background-color: transparent;
+}
+100% {
+   
+top: 20px;
+left: 449px;
+border-left-style: #ffeb3b;
+border-top-style: #ffeb3b;
+background-color: #ffeb3b;
+}
+
+}
+
+    
